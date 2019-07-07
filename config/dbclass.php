@@ -6,10 +6,10 @@
  
 class DBClass {
 
-    private $host = "127.0.0.1";
-    private $username = "prueba";
-    private $password = "prueba";
-    private $database = "api_prueba";
+    private $host = "q68u8b2buodpme2n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	";
+    private $username = "sgzw0zsuhfj1bvjk";
+    private $password = "pfnul6l99a8l55v0";
+    private $database = "l24vnq4wgnbleib4";
 
     public $connection;
 
