@@ -1,0 +1,39 @@
+#json update
+{
+	"id" : "1",
+	"nombre" : "Nombre Actualizado",
+	"apellido" : "Otro apellido",
+	"edad" : "13",
+	"correo" : "otroCorroe@example.com",
+	"cursos" : "6-6-6"
+	
+}
+
+#json insert
+{
+	"nombre" : "Carlos",
+	"apellido" : "Pezcador",
+	"edad" : "30",
+	"correo" : "pezcador@example.com",
+	"cursos" : "2-1-4"
+}
+
+#json insert
+{
+	"nombre" : "Curso de restAPI",
+	"horario" : "10:00-14:00",
+	"fechaIni" : "2019/07/09",
+	"fechaFin" : "2019/07/09",
+	"numEst" : "1"
+}
+
+#json update
+
+{
+	"id": "3",
+	"nombre" : "Programacion por restricciones",
+	"horario" : "10:00-14:00",
+	"fechaIni" : "2019/07/09",
+	"fechaFin" : "2019/07/09",
+	"numEst" : "10"
+}

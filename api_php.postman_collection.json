@@ -1,0 +1,250 @@
+{
+	"info": {
+		"_postman_id": "0ac44ede-5e74-4610-85f4-62328820015b",
+		"name": "api_php",
+		"description": "backend en php",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "obtenerEstudiantes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/api/estudiante/read.php",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"api",
+						"estudiante",
+						"read.php"
+					]
+				},
+				"description": "obtenerEstudiantes"
+			},
+			"response": []
+		},
+		{
+			"name": "crearEstudiante",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"nombre\" : \"Carlos\",\r\n\t\"apellido\" : \"Pezcador\",\r\n\t\"edad\" : \"30\",\r\n\t\"correo\" : \"pezcador@example.com\",\r\n\t\"cursos\" : \"2-1-4\"\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1/api/estudiante/create.php",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"api",
+						"estudiante",
+						"create.php"
+					]
+				},
+				"description": "CrearEstudiante"
+			},
+			"response": []
+		},
+		{
+			"name": "updateEstudiante",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\" : \"1\",\r\n\t\"nombre\" : \"Nombre Actualizado\",\r\n\t\"apellido\" : \"Otro apellido\",\r\n\t\"edad\" : \"13\",\r\n\t\"correo\" : \"otroCorroe@example.com\",\r\n\t\"cursos\" : \"6-6-6\"\r\n\t\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1/api/estudiante/update.php",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"api",
+						"estudiante",
+						"update.php"
+					]
+				},
+				"description": "updateEstudiante"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteEstudiante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/api/estudiante/delete.php?id=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"api",
+						"estudiante",
+						"delete.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				},
+				"description": "deleteEstudiante"
+			},
+			"response": []
+		},
+		{
+			"name": "crearCurso",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/api/curso/create.php",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"api",
+						"curso",
+						"create.php"
+					]
+				},
+				"description": "crearCurso"
+			},
+			"response": []
+		},
+		{
+			"name": "obtenerCursos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/api/curso/read.php",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"api",
+						"curso",
+						"read.php"
+					]
+				},
+				"description": "obtenerCursos"
+			},
+			"response": []
+		},
+		{
+			"name": "updateCurso",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": \"3\",\r\n\t\"nombre\" : \"Programacion por restricciones\",\r\n\t\"horario\" : \"10:00-14:00\",\r\n\t\"fechaIni\" : \"2019/07/09\",\r\n\t\"fechaFin\" : \"2019/07/09\",\r\n\t\"numEst\" : \"10\"\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1/api/curso/update.php",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"api",
+						"curso",
+						"update.php"
+					]
+				},
+				"description": "updateCurso"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteCurso",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/api/curso/delete.php?id=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"api",
+						"curso",
+						"delete.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				},
+				"description": "deleteCurso"
+			},
+			"response": []
+		},
+		{
+			"name": "topCursos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1/api/reportes/topcursos.php?",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"path": [
+						"api",
+						"reportes",
+						"topcursos.php"
+					]
+				},
+				"description": "topCursos"
+			},
+			"response": []
+		}
+	]
+}
