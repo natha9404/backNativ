@@ -15,3 +15,5 @@ usuario: id10128586_prueba
 password: prueba
 
 con las tablas creadas ya se puede acceder a los archivos desplegados.
+
+La aplicación quedará desplegada en el siguiente enlace: http://api-native.000webhostapp.com/api/
