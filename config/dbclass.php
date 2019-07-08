@@ -11,6 +11,7 @@ class DBClass {
     private $password = "prueba";
     private $database = "id10128586_api_prueba";
 
+
     public $connection;
 
     // get the database connection
