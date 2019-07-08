@@ -6,10 +6,11 @@
  
 class DBClass {
 
-    private $host = "http://q68u8b2buodpme2n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    private $username = "sgzw0zsuhfj1bvjk";
-    private $password = "pfnul6l99a8l55v0";
-    private $database = "l24vnq4wgnbleib4";
+    private $host = "localhost";
+    private $username = "id10128586_prueba";
+    private $password = "prueba";
+    private $database = "id10128586_api_prueba";
+
 
     public $connection;
 
