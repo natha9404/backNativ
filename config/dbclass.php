@@ -6,10 +6,10 @@
  
 class DBClass {
 
-    private $host = "127.0.0.1";
-    private $username = "prueba";
+    private $host = "localhost";
+    private $username = "id10128586_prueba";
     private $password = "prueba";
-    private $database = "api_prueba";
+    private $database = "id10128586_api_prueba";
 
     public $connection;
 
